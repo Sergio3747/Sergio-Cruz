@@ -1,0 +1,336 @@
+<DOCTYPE html>
+    <html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+              <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+              <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+              <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+              
+              <link href="https://fonts.cdnfonts.com/css/marinero-tatuado" rel="stylesheet">
+                    
+         <title>Menu de Tienda</title>
+    </head>
+    <body>
+        <style>
+            img{
+                width: 200px;
+                height: auto;
+            }
+                table, th,td{
+                    border: 1px dotted  rgb(255, 0, 0);
+                }
+                table{
+                    width: 80%;
+                    margin-top: 20px;
+                    border-collapse: collapse;
+                    box-shadow: 0 5px 15px rgb(255, 0, 0);
+                    margin-left: 50px;
+                }
+                th,tr{
+                    text-align: left;
+                    padding: 8px;
+                }
+                tr:nth-child(even){
+                    background-color: rgb(210, 0, 0);
+                }
+                tr:hover{
+                    background-color: rgb(144, 144, 144);
+                }
+        </style>
+            <div style="margin: 24px;">
+                <nav class="nav nvbar-ligth"
+                style="background-color: rgb(175, 2, 2);">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html" style="color: rgb(0, 0, 0); font-family: 'Marinero Tatuado', sans-serif;
+                    ">inicio</a>
+            <div class="collapse navbar-collapse" id="navbarNavDropwn">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDrownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                        style="font-family: 'Marinero Tatuado', sans-serif;
+                        ">unidad 1</a>
+                         <div class="dropdown-menu" aria-labelledby="navbarDrownMenuLink">
+                             <a class="dropdown-item" href="Mi perfil.html" style="font-family: 'Marinero Tatuado', sans-serif;
+                             ">Mi Perfil</a><br>
+                             <a class="dropdown-item" href="Calculadora.HTML" style="font-family: 'Marinero Tatuado', sans-serif;
+                             ">Calculadora</a><br>
+                             <a class="dropdown-item" href="Tienda.HTML" style="font-family: 'Marinero Tatuado', sans-serif;
+                             ">Tienda</a>
+                          </div>
+                        </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDrownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: 'Marinero Tatuado', sans-serif;
+                    ">unidad 2</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDrownMenuLink">
+                       <a class="dropdown-item" href="Tienda Pedido 1.html" style="font-family: 'Marinero Tatuado', sans-serif;
+                       ">Tienda pedido 1</a><br>
+                       <a class="dropdown-item" href="json.html" style="font-family: 'Marinero Tatuado', sans-serif;
+                       ">json</a><br>
+                       <a class="dropdown-item" href="tiendapedido2.html"style="font-family: 'Marinero Tatuado', sans-serif;
+                       ">Tienda pedido 2</a>
+                    </div>
+                   </li>
+                        <li class="nav-item dropdown">
+                             <a class="nav-link dropdown-toggle" href="#" id="navbarDrownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: 'Marinero Tatuado', sans-serif;
+                             "
+                             >unidad 3</a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropwnMenuLink">
+                                 <a class="dropdown-item" href="basededatos.html" style="font-family: 'Marinero Tatuado', sans-serif;
+                                 ">Base de datos</a><br>
+                                 <a class="dropdown-item" href="peliculas.html"style="font-family: 'Marinero Tatuado', sans-serif;
+                                 ">Peliculas</a><br>
+                               </div>
+                             </li>
+                           </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+<h1 style="font-family: 'Marinero Tatuado', sans-serif;">Desayunos</h1>
+            <table>
+        <tr>
+            <th style="font-family: 'Marinero Tatuado', sans-serif;">Foto de los platillos</th>
+            <th style="font-family: 'Marinero Tatuado', sans-serif;;">Descripcion</th>
+            <th style="font-family: 'Marinero Tatuado', sans-serif;">Precio del platillo</th>
+        </tr>
+        <tr>
+            <td><img src="img/Los chilaquiles verdes.jpg" alt="Desayuno"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">Chilaquiles verdes, Con trozos de cecina del mero Yecapixtla, tienen su fama bien merecida y los puedes encontrar en todos los 
+                restaurantes a lo largo del territorio mexicano, no podrás aguantar que la boca se te haga agua, ya que te ponen todo el sazón de la cocina mexicana en el paladar</p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$40.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/Huevos rancheros.jpg" alt="Desayuno"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">Huevos rancheros,En donde estos reposan en una tortilla hecha tostada 
+                bien mojada con salsa ranchera y cubiertos de queso, te dejaran con ganas de más por su implacable sabor.
+            </p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$30.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/Tamales.jpg" alt="Desayuno"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">Orden de una Docena de tamales,Un desayuno mexicano colosal, de lomo con mole, salsa verde, rajas, todo bien colocado
+                 y fajado con hoja de plátano o maíz mostrando el porte indígena y ostento de sabor.
+            </p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$120.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/El taco de carnitas.jpg" alt="Desayuno"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">Una orden con 5 tacos carnitas, Un platillo que te dejara sorprendido por su descomunal tamaño en la mayoría de lugares, su 
+                gran sabor tiene que ver con el cerdo cocinado con una buena cantidad de manteca y especias dejándolo listo para alimentar el animal que llevas dentro.
+
+
+            </p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$60.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/Birria.jpg" alt="Desayuno"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">La birria de res, Platillo que es tradición para quitar el frio o esa resaca que puedas llegar a tener. El adobo con tomate y 
+                una combinación de chiles secos son los ingredientes principales que le dan todo ese sazón a la costilla norteña, junto a otras especias que aportan el rico sabor del consomé color marrón, todo esto complementado con verdura y unas tortillas de maíz hechas a mano para unos buenos tacos que tendrán más jugo que un limón.
+
+            </p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$60.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/Enmoladas.webp" alt="Desayuno"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">Un platillo de Enmoladas, Es un desayuno mexicano necesario que compartes con tragones de gustos similares, una bomba de sabores, un placer culposo disfrutarlas. Con ese carácter semi dulce que se siente en algunos moles poblanos, pueden estar rellenas de pollo o lechón 
+                que es muy suavecito y jugoso con una cobertura abundante de mole.</p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$75.00</td>
+        </tr>
+        
+
+            </table>
+
+ <h1 style="font-family: 'Marinero Tatuado', sans-serif;">Bebidas</h1>
+            <table>
+        <tr>
+            <th style="font-family: 'Marinero Tatuado', sans-serif;">Foto de los platillos</th>
+            <th style="font-family: 'Marinero Tatuado', sans-serif;;">Descripcion</th>
+            <th style="font-family: 'Marinero Tatuado', sans-serif;">Precio del platillo</th>
+        </tr>
+        <tr>
+            <td><img src="img/atole.avif" alt="Bebidas"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">El atole, conocido también como atol en algunas regiones; es una bebida de origen prehispánico consumida en Mesoamérica. </p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$30.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/Cafe.jpeg" alt="Bebidas"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">Una taza de cafe, contiene varios alcaloides que contribuyen al sabor amargo del café como son la cafeína, la trigonelina y otros en menor concentración como paraxantina, teobromina y teofilina
+            </p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$20.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/El tepache es una bebida fermentada originaria de México, normalmente tiene un muy bajo nivel alcohólico por su forma de elaboración..jpg" alt="Desayuno"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">Un vaso con un litro de tepache, es una bebida fermentada originaria de México, normalmente tiene un muy bajo nivel alcohólico por su forma de elaboración. 
+            </p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$30.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/Vino.webp" alt="Bebidas"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">Vino, ya sea una copa de vino o una botella enter de vino, el precio varia </p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$30.00/450.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/Cerveza.jpeg" alt="Bebidas"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">Cerveza de Raiz,bebida elaborada mediante una combinación de todos o algunos de los siguientes ingredientes: vainilla, raíz de zarzaparrilla y/o de orozuz, corteza de raíz de sasafrás, corteza de cerezo, nuez moscada, anís, y melaza, entre otros ingredientes
+            </p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$55.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/Mezcal.jpg" alt="Bebidas"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;"> Un pequeño vaso de mezcal, es un destilado de agave que viene de una planta de la familia de las agaváceas cuyo crecimiento es abundante en México</p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$35.00</td>
+        </tr>
+        
+
+            </table>
+<h1 style="font-family: 'Marinero Tatuado', sans-serif;">Botanas Mexicanas</h1>
+            <table>
+        <tr>
+            <th style="font-family: 'Marinero Tatuado', sans-serif;">Foto de los platillos</th>
+            <th style="font-family: 'Marinero Tatuado', sans-serif;;">Descripcion</th>
+            <th style="font-family: 'Marinero Tatuado', sans-serif;">Precio del platillo</th>
+        </tr>
+        <tr>
+            <td><img src="img/Cueritos.jpg" alt="Botanas Mexicanas"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">Cueritos, Piel de cerdo marinada en vinagre… y nada más. Así de sencillas pueden ser las botanas en México.  </p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$30.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/chicharron.avif" alt="Botanas Mexicanas"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">fritura de harina con forma rectangular sobre la cual se añade un exceso de elementos para satisfacer hasta al más hambreado..
+            </p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$35.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/lagrimitas frituras preparadas.jpeg" alt="Botanas Mexicanas"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">lagrimitas frituras preparadas, Estas frituras son ideales para los pequeños del hogar
+            </p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$25.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/CHamoyada de mango.jpeg" alt="Botanas Mexicanas"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">Un vaso ya sea grande, mediano o chico de Chamoyadas, es un festival de sabores con el que acabarás enchilado, empalagado y probablemente con el cerebro medio congelado. 
+            </p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$30.00-40.00-50.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/Jicaleta.jpg" alt="Botanas Mexicanas"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">Rebanada un poco gruesa de jícama ensartada en un palito de madera, como si fuera una paleta; la bañan con jugo de limón o con chamoy y la revuelcan en chile piquín
+            </p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$60.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/Tostilocos.webp" alt="Botanas Mexicanas"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">Tostilocos, Los tostilocos o dorilocos1​ son una popular botana (snack) mexicana, creada en la ciudad de Tijuana, Baja California, México que consiste en frituras de maíz de la marca Tostitos (en el caso de los tostilocos) o Doritos (en el caso de los dorilocos) sazonadas con 
+                alguna salsa picante tipo Valentina o chamoy o chile en polvo tipo Tajín, y usualmente son acompañados con otros ingredientes, como cueritos, pepino, jícama, limón, zanahoria, cacahuate japonés y/o sal</p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$55.00</td>
+        </tr>
+        
+
+            </table>
+<h1 style="font-family: 'Marinero Tatuado', sans-serif;">Comidas Caseras</h1>
+            <table>
+        <tr>
+            <th style="font-family: 'Marinero Tatuado', sans-serif;">Foto de los platillos</th>
+            <th style="font-family: 'Marinero Tatuado', sans-serif;;">Descripcion</th>
+            <th style="font-family: 'Marinero Tatuado', sans-serif;">Precio del platillo</th>
+        </tr>
+        <tr>
+            <td><img src="img/Los chilaquiles verdes.jpg" alt="Comidas Caseras"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">Sándwich de nopal con jamón y queso</p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$40.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/Arroz.webp" alt="Comidas Caseras "></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">Arroz blanco con elote y chile poblano, Cualquier comida mexicana va bien acompañada de un arroz. Este va con granitos de elote y rajas poblanas, perfecto para acompañar tu guisado favorito.
+
+            </p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$30.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/Tortitas de papa con jamón.webp" alt="Comidas Caseras "></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">Las tortitas de papa son el platillo que toda la familia disfruta, pues le gusta tanto a los niños, como a los más grandes de la casa. El truco para que te
+                 queden con la forma perfecta es cocinar las papas con la cáscara, así no absorberán demasiada agua y no te costará trabajo formar las tortitas.
+            </p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$50.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/Carne molida de res a la mexicana.webp" alt="Comidas Caseras "></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">Esta receta de carne molida a la mexicana es el guisado caldoso rendidor que te hacía falta y te tomará menos de media hora hacerla. Para prepararlo ocuparás 
+                ingredientes que siempre solemos tener en el refrigerador, así que es un platillo muy fácil de hacer.
+
+            </p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$60.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/Tinga de pollo.webp" alt="Comidas Caseras "></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">Tan popular como la tinga de res, la versión con pollo es igualmente deliciosa. Si eres de las personas que no 
+                comen mucha cebolla, prepara la tuya en casa con esta receta fácil y sólo utiliza la cantidad que desees.
+
+            </p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$30.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/Rajas poblanas cremosas con pollo.webp" alt="Comidas Caseras"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">Las rajas poblanas con crema y pollo no pueden faltar en una reunión en la que la comida está compuesta por guisados. 
+                Este platillo se complementa perfecto con frijoles refritos y un arroz rojo. ¡No dudes en hacerla taquitos!
+            </p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$35.00</td>
+        </tr>
+        
+
+            </table>
+<h1 style="font-family: 'Marinero Tatuado', sans-serif;">Postres</h1>
+            <table>
+        <tr>
+            <th style="font-family: 'Marinero Tatuado', sans-serif;">Foto de los platillos</th>
+            <th style="font-family: 'Marinero Tatuado', sans-serif;;">Descripcion</th>
+            <th style="font-family: 'Marinero Tatuado', sans-serif;">Precio del platillo</th>
+        </tr>
+        <tr>
+            <td><img src="img/Alegrías de amaranto con chocolate.jpg" alt="Postres"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">pastel tres leches, churros, galletas, conchas, tamales, pan de elote, alfeñiques, arroz con leche, chongos zamoranos, cubiletes, puerquitos de piloncillo, ¡y para de contar</p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$100.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/Pastel de tres leches envinado.webp" alt="Postres"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">Postre mexicano tres leches es un bizcocho remojado en lácteos, con un sublime toque etílico, que le da su distintivo sabor.
+            </p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$130.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/Pan de elote con queso.webp" alt="Postres"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">Pan de elote mexicano es un postre muy esponjoso, algo fibroso, profundamente aromático y con cierta jugosidad.
+            </p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$70.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/Cocadas horneadas.webp" alt="Postres"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">Cocadas mexicanas son unos dulces con forma de tambor o redondo, hechos con coco, agua de coco y azúcar o piloncillo 
+                (describiéndolas de forma muy purista). Este maravilloso majar, tiene su origen en la época colonial
+
+            </p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$50.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/Ate de guayaba.webp" alt="Postres"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">Postre mexicano con frutas cuya apariencia se asemeja mucho al dulce de membrillo, pues la receta
+                 original llegó con el Virreinato de la Nueva España, pero muy prontamente adquirió características propias, por el uso de productos autóctonos.
+            </p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$70.00</td>
+        </tr>
+        <tr>
+            <td><img src="img/Arroz con Leche Cremosit.webp" alt="Postres"></td>
+            <td><p style="font-family: 'Marinero Tatuado', sans-serif;">No hay mejor forma de celebrar la Independencia de México que con un delicioso arroz con leche. Esta receta es extracremosa, por lo que te gustará aún más.
+            </p></td>
+            <td style="font-family: 'Marinero Tatuado', sans-serif;">$30.00</td>
+        </tr>
+        
+
+            </table>
+
+        </body>
+        </html>
